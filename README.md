@@ -12,7 +12,7 @@ Este es mi juego del ahorcado hecho en Go para la materia de Estructura de Datos
 ## Como correrlo
 
 Primero clona el repo:
-git clone https://github.com/ezurita578-cloud/ahorcado-go.git
+git clone https://github.com/ezurita578-cloud/ahorcado-app
 
 Entra a la carpeta:
 cd ahorcado-app
