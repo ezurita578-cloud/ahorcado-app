@@ -12,15 +12,19 @@ Este es mi juego del ahorcado hecho en Go para la materia de Estructura de Datos
 ## Como correrlo
 
 Primero clona el repo:
+```
 git clone https://github.com/ezurita578-cloud/ahorcado-app
+```
 
 Entra a la carpeta:
+```
 cd ahorcado-app
-
+```
 
 Y correlo con:
+```
 go run hangman.go
-
+```
 
 ## Como se juega
 
