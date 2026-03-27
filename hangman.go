@@ -12,6 +12,12 @@ var palabras = []string{
 	"DELFIN", "MOCHILA", "PARAGUAS", "SEMAFORO",
 }
 
+var pistas = []string{
+	"Fruta verde mexicana", "Insecto volador colorido", "Edificio medieval", "Animal con trompa",
+	"Instrumento de cuerdas", "Lugar de medicina", "Elevacion del terreno", "Montana que expulsa lava",
+	"Mamifero marino inteligente", "Bolsa que se carga en la espalda", "Objeto para la lluvia", "Luz que regula el trafico",
+}
+
 var etapas = []string{
 	`
   +---+
@@ -102,12 +108,15 @@ func main() {
 	fmt.Println()
 
 	for {
-		palabra := palabras[rand.Intn(len(palabras))]
+		indice := rand.Intn(len(palabras))
+		palabra := palabras[indice]
+		pista := pistas[indice]
 		errores := 0
 		usadas := []string{}
 
 		for errores < 6 {
 			fmt.Println(etapas[errores])
+			fmt.Println("Pista:", pista)
 			fmt.Println("Palabra:", mostrarPalabra(palabra, usadas))
 			fmt.Println("Letras usadas:", strings.Join(usadas, ", "))
 			fmt.Printf("Errores: %d/6\n", errores)
