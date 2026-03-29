@@ -8,7 +8,7 @@ import (
 
 var palabras = []string{
 	"AGUACATE", "MARIPOSA", "CASTILLO", "ELEFANTE",
-	"GUITARRA", "HOSPITAL", "MONTANA", "VOLCAN",
+	"GUITARRA", "HOSPITAL", "MONTAÑA", "VOLCAN",
 	"DELFIN", "MOCHILA", "PARAGUAS", "SEMAFORO",
 }
 
