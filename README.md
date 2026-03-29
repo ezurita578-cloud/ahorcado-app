@@ -29,7 +29,6 @@ go run hangman.go
 ## Como se juega
 
 - El juego elige una palabra al azar
-- Cada palabra tiene una pista para ayudarte
 - Tu vas diciendo letras una por una
 - Si la letra esta en la palabra aparece, si no, se dibuja una parte del muñeco
 - Tienes 6 intentos en total
