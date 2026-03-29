@@ -9,14 +9,12 @@ Estructura de Datos.
 Primero anote las reglas basicas del juego para tener claro que
 necesitaba programar:
 - una palabra secreta
-- una pista por cada palabra para ayudar al jugador
 - el jugador adivina letra por letra
 - maximo 6 errores
 - el muñeco se va dibujando con cada error
 
 ## Que datos iba a necesitar
 - Un slice con las palabras posibles
-- Un slice con las pistas, una por cada palabra
 - Otro slice para guardar las letras que ya use
 - Un numero para contar los errores
 
